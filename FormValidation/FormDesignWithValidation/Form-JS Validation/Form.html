@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!---------------Title----------->
+		<title>ContactUs Form with HTML validation</title>
+		
+		<!---------------CSS FILE----------->
+		<link rel="stylesheet" type="text/css" href="Form.css" />
+
+		<!---------------JS File----------->
+		<script src="jquery/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+	</head>
+	
+	<body>
+	<h3>Contact Us Form</h3>
+
+		<div class="form">
+		<!-------------Form START------------->
+		  <form action="">
+			<label for="firstName">First Name</label>
+			<input type="text" id="firstName" name="firstname" placeholder="Enter Your First Name">
+
+			<label for="lastName">Last Name</label>
+			<input type="text" id="lastName" name="lastname" placeholder="Enter Your last Name">
+			
+			<label for="email">Email Address</label>
+			<input type="text" id="email" name="email" placeholder="Enter Your Email Address">
+			
+			<label for="phone">Phone Number</label>
+			<input type="text" id="phone" name="phone" placeholder="Enter Your Phone Number">
+
+			<label for="country">Your Country</label>
+			<select id="country" name="country">
+			  <option value="">---Select---</option>
+			  <option value="australia">USA</option>
+			  <option value="australia">Bangladesh</option>
+			  <option value="canada">Japan</option>
+			  <option value="canada">India</option>
+			  <option value="usa">Australia</option>
+			  <option value="usa">Canada</option>
+			</select>
+			
+			<label for="subject">Subject</label>
+			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+			
+			<div class="btn">
+					<input type="reset" id="btn1" name="confirmation" value="Reset"/>
+					<input type="submit" id="btn2"name="confirmation" value="Submit"/>
+				</div>
+		  </form>
+		  <!-------------Form END------------->
+		</div>
+
+	</body>
+</html>

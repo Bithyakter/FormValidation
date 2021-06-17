@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!---Title --->
+		<title>Form Design</title>
+		
+		<!---CSS File--->
+		<link href="css/form.css" rel="stylesheet" type="text/CSS"/>
+	
+	</head>
+	
+	<!-----Body START----->
+	<body>	
+		<div id="fullForm">
+		<!-----Main Form START----->
+			<form name="formValidation" id="formValidation" onsubmit="validate()">
+				<h2>Submit Your Information</h2>
+				<fieldset id="personalInfo" >
+					<legend>Enter Your Personal Information</legend>
+					<div>
+						<label for="firstName">First Name:</label>
+						<input type="text" id="firstName" name="firstName" placeholder="Your First Name" required="true"/>				
+					</div>
+					
+					<div>
+						<label for="lastName">Last Name:</label>
+						<input type="text" id="lastName" name="lastName"placeholder="Last Name" required="true"/>
+					</div>
+					
+					<div>
+						<label for="phoneNumber">Phone Number:</label>
+						<input type="number" id="phoneNumber" name="phoneNumber" placeholder="123-45-678" required="true"/>
+					</div>
+					
+					<div>
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" placeholder="Email Address" required="true"/>
+					</div>
+				  
+					<div>
+						<label for="password">Password:</label>
+						<input type="password" id="password" name="password" placeholder="Password" required="true"/>
+					</div>
+					
+					<div>
+						<label for="dob">Date of Birth:</label>
+						<input type="date" id="dob" name="dob" placeholder="Date of Birth" required="true"/>
+					</div>
+					
+					<div>
+						<label for="gender">Gender:</label>&nbsp;
+						<input type="radio" name="gerder-selection" value="male"/>Male &nbsp; &nbsp; 
+						<input type="radio" name="gerder-selection" value="female"/>Female
+						<label id="errorGender" style="color:red;"></label>
+					</div>
+
+				</fieldset>
+				
+				<fieldset id="address">
+					<legend for="address">Your Address</legend>
+					<div>
+						<label for="address1">Present Address:</label>
+						<input type="text" id="address1" name="address1" placeholder="Your Current Address" required="true"/>&nbsp &nbsp
+					</div>
+					<div>		
+						<label for="address2">Parmanent Address:</label>
+						<input type="text" id="address2" name="address2" placeholder="Your Parmanent Address" required="true"/>
+					</div>
+				</fieldset>
+					
+				
+				<fieldset id="nationality">
+					<legend for="nationality">Select Your Nationality</legend>
+					&nbsp; &nbsp;<label>Your Country </label>
+					<select id="country">
+						<option value="">-Select One-</option>
+						<option value="America"> America</option>
+						<option value="Bangladesh"> Bangladesh</option>
+						<option value="Japan"> Japan</option>
+						<option value="India"> India</option>
+						<option value="Australia"> Australia</option>
+						<option value="Brazil"> Brazil</option>
+						<option value="Canada"> Canada</option>
+						<option value="Germany"> Germany </option>
+						<option value="Sri Lanka"> Sri Lanka</option>
+						<option value="Malaysia"> Malaysia</option>
+					</select>
+				</fieldset>
+				
+				<fieldset id="language">
+					<legend>Select your Language</legend><br>
+					<input type="checkbox" value="English" name="English" class="language" /> English <br><br>
+					<input type="checkbox" value="Bangla" name="Bangla" class="language" /> Bangla<br><br>
+					<input type="checkbox" value="Hindi" name="Hindi" class="language" /> Hindi<br><br>
+					<input type="checkbox" value="Japanese" name="Japanese" class="language" /> Japanese<br><br>
+					<label id="errorLanguage" style="color:red;"></label>
+				</fieldset>
+				
+				<fieldset id="box">
+					<legend>Must Fill This Box</legend><br>
+					Are You Student or Not? &nbsp; &nbsp; <br> <br> 
+					<input type="radio" name="confirmation" value="yes"/>Yes &nbsp; &nbsp; &nbsp; &nbsp;
+					<input type="radio" name="confirmation" value="no"/>No <br>  <br>
+					
+					Enter Your Message Here if you want?:<br> <br>
+					<textarea rows="10" cols="50" placeholder="Write something...."></textarea><br>
+				</fieldset>
+				
+				<div>
+					<input type="checkbox" name="confirmation" value="yes"/> <span>I accept all the terms & condition</span><br><br>
+					<input type="checkbox" name="confirmation" value="yes"/> <span>I certify that all information I have given is 100% correct.</span><br>
+				</div>
+				
+				<div>
+					<p>Upload Your File Here: </p> 
+					<input type="file" name="upload" id="file-select">
+				</div>
+				<br>
+				<div class="btn">
+					<input type="reset" id="btn1" name="confirmation" value="Reset"/>
+					<input type="submit" id="btn2"name="confirmation" value="Submit"/>
+				</div>	<br>			
+			</form>
+			<!-----Main Form START----->
+		</div>
+	</body>	
+<!-----Body END----->	
+</html>	
+
+	
+	
+	
+	

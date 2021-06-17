@@ -1,0 +1,88 @@
+	
+	body {
+	font-family: Georgia, "Times New Roman", serif;
+	background:#80ff80;
+	}
+	
+	* {
+    box-sizing: border-box;
+	max-width:960px;
+	margin:10px auto;
+	}
+	
+	form{
+		max-width:960px;
+		margin:10px auto;
+	}
+
+	input[type=text], 
+	select, 
+	textarea {
+	  width: 100%;
+	  padding: 12px;
+	  border: 1px solid #4675d2;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	  margin-top: 6px;
+	  margin-bottom: 16px;
+	  resize: vertical;
+	  outline:none;
+	}
+	input[type=text]:focus, 
+	select:focus,  
+	textarea:focus{
+	box-shadow: 0 0 8px #4675d2;
+	border: 1px solid #4675d2;
+	  
+	}
+
+	button[type=submit] {
+	  background-color: #4675d2;
+	  color: white;
+	  padding: 12px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+
+	button[type=submit]:hover {
+	  background-color: #234790;
+	}
+
+	.form {
+	  border-radius: 5px;
+	  background-color: #e0ebeb;
+	  padding: 20px;
+	}
+	
+	h3{
+	background: #4675d2;
+	padding: 20px 0;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: 0 0 -10px 0; 
+	}
+	
+input[type=submit],
+input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: #2e9532;
+  }
+ 
+#btn1 {
+	margin-right:10px;
+}
+.btn{
+	text-align: center;
+}

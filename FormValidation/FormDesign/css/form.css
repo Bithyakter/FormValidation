@@ -1,0 +1,141 @@
+body{ 
+	background:#bfddfa;
+}
+
+h2{
+	background: #4675d2;
+	padding: 20px;
+	font-size: 26px;
+	font-weight: 250;
+	text-align: center;
+	color: #fff;
+	margin:0; 
+	}
+
+form{
+	margin:10px auto;
+	max-width: 760px;
+	padding: 0px 0px 0px 0px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", serif;
+	background:#e0ebeb;
+}
+
+form div {
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+form label {
+    display: inline-block;
+    width: 150px;
+}
+
+form input[type=text], 
+form input[type=date],
+form input[type=address1],
+form input[type=address2],
+form input[type=email],
+form input[type=password],
+form input[type=number],
+select{
+	box-sizing: border-box;
+	border:1px solid #4675d2;
+	padding: 7px;
+	margin:0px;
+	outline: none;	
+    border-radius: 10px;
+	width:315px;
+	height:35px;
+}
+
+#country{
+	box-sizing: border-box;
+	border:1px solid #4675d2;
+	padding: 7px;
+	margin:8px;
+	outline: none;	
+    border-radius: 20px;
+	width:313px;
+}
+
+form input[type=text]:focus, 
+form input[type=number]:focus,
+form input[type=date]:focus,
+form input[type=email]:focus,
+form input[type=password]:focus,
+form input[type=email]:focus,
+textarea:focus, 
+select:focus{
+	box-shadow: 0 0 8px #4675d2;
+	border: 1.5px solid #4675d2;
+}
+
+input[type=submit],
+input[type=reset] {
+    background-color: #4675d2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+	height:45px;
+	width:90px;
+    cursor: pointer;  
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: #114cc4;
+  }
+ 
+#btn1 {
+	margin-right:10px;
+} 
+
+
+fieldset{
+	margin: 15px;
+	border: 1px solid #4479e4;
+	border-color: #407cf3;
+	border-radius: 15px;
+	box-shadow: #5a84da;
+}
+
+div{
+	margin: 15px;
+}
+
+.btn{
+	text-align: center;
+}
+
+.error {
+	color: red;
+	margin-left: 5px;
+}
+			 
+label.error {
+	display: inline;
+			  
+}
+
+textarea{
+	box-sizing: border-box;
+	border:1px solid #4675d2;
+	padding: 7px;
+	margin:0px;
+	outline: none;	
+    border-radius: 20px;
+	width:385px;
+}
+
+legend{
+	color: #4675d2;
+	font-size: 18px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: bold;
+}
+
+span{
+	color:red;
+}
